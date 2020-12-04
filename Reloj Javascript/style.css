@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300;700&display=swap');
+
+body{
+	font-family: 'Teko', sans-serif;
+	background-image: url("background.jpg");
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	color:white;
+}
+
+
+.clockdate-wrapper{
+
+	width:300px;
+	height: 150px;
+	background-color: rgba(3, 3, 3,.7);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	box-shadow: 0px 1px 2px #27272780;
+	margin:10px 0 0 0  ;
+}
+
+#clockdate{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+#clock, 
+#date{
+	font-weight: 700;
+	font-size: 50px;
+}
+
+.fecha{
+	width: 300px;
+	height: 80px;
+	background-color: rgba(3, 3, 3,.7); 
+	align-self: center;
+	margin: 115px 0 0 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 700;
+	font-size:30px;
+	box-shadow: 0px 1px 2px #27272780;
+
+}
