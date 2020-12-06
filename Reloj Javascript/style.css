@@ -42,12 +42,39 @@ body{
 	height: 80px;
 	background-color: rgba(3, 3, 3,.7); 
 	align-self: center;
-	margin: 115px 0 0 0;
+	margin: 22px 0 0 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
 	font-weight: 700;
 	font-size:30px;
 	box-shadow: 0px 1px 2px #27272780;
+
+}
+
+.title{
+	color:black;
+	font-size: 60px;
+}
+
+.social-media{
+	align-self: flex-end;
+	position: absolute;
+	bottom: 0;
+}
+
+.social-media a{
+	text-decoration: none;
+	color:black;
+	font-size: 25px;
+	margin: 10px 10px 0 0;
+
+}
+
+@media screen and (max-width: 350px){
+	.title{
+		font-size: 40px;
+	}
+
 
 }
